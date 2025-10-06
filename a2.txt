@@ -1,1 +1,2 @@
 Listo para que me controlen en git
+Por fin me hacen caso, ahora estoy  staged 
