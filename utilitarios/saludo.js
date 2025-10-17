@@ -6,8 +6,9 @@ saludar=function(){
     console.log("Hola" + nombre + apellido);
     let edad=recuperarInt("txtEdad");
     let estatura=recuperarFloat("txtEstatura");
-
-
+    let mensajeBienvenida="Bienvenido "+nombre+" "+apellido;
+    mostrarTexto("lblResultado",mensajeBienvenida);
+    mostrarImagen("imgSaludo","./imagenes/saludo.gif")
 }
 
 
@@ -28,4 +29,16 @@ recuperarFloat = function(idComponente){
     let valorCaja=recuperarTexto(idComponente);
     let valorFloat=parseFloat(valorCaja);
     return valorFloat;
+}
+
+mostrarTexto = function (idComponente, mensaje) {
+    let componente;
+    componente = document.getElementById(idComponente);
+    componente.innerText = mensaje;
+}
+
+mostrarImagen = function (idComponente, rutaImagen) {
+    let componente;
+    componente = document.getElementById(idComponente);
+    componente.src = rutaImagen;
 }
