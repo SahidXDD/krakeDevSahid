@@ -19,7 +19,7 @@ calcularTasaInteres=function(ingresoAnual) {
 
 
 calcularCapacidadPago=function(edad,ingresos, egresos){
-    edad=parseInt(edad)
+    
     ingresos=parseFloat(ingresos);
     egresos=parseFloat(egresos);
     let resultado= ingresos-egresos;
@@ -35,6 +35,7 @@ calcularCapacidadPago=function(edad,ingresos, egresos){
 }
 
 calcularDescuento=function(precio, cantidad){
+    
     let descuento=0
     let total = precio * cantidad;
     let totalConDescuento = total - (total * descuento);
@@ -58,6 +59,7 @@ calcularDescuento=function(precio, cantidad){
 }
 
 determinarColesterolLDL= function (nivelColesterol) {
+    nivelColesterol=parseFloat(nivelColesterol)
     if (nivelColesterol < 100) {
         return "Óptimo";
     } else if (nivelColesterol >= 100 && nivelColesterol <= 129) {
