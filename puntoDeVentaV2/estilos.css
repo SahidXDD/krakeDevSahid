@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #bfc4ca;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* CONTENEDOR PRINCIPAL */
+.contenedor{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 40px;
+}
+
+/* LOGO */
+.logo img{
+    width: 270px;
+}
+
+/* FORMULARIO AL CENTRO */
+.formulario{
+    width: 40%;
+    text-align: center;
+}
+
+.titulo{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.fila{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.texto{
+    width: 120px;
+    text-align: right;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.caja{
+    width: 180px;
+    padding: 5px;
+    border-radius: 4px;
+    border: 2px solid #92d692;
+    background: white;
+}
+
+/* BOTONES */
+.botones{
+    margin-top: 10px;
+}
+
+.btn{
+    background: #4caf50;
+    border: none;
+    color: white;
+    padding: 8px 28px;
+    border-radius: 5px;
+    margin: 0 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn:hover{
+    background: #45a049;
+}
+
+/* RESULTADOS A LA DERECHA */
+.resultados{
+    width: 20%;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.linea{
+    margin-bottom: 12px;
+}
