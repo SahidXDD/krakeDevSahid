@@ -1,0 +1,18 @@
+body{
+    font-family:Arial;
+    background:#f3f3f3;
+    padding:20px;}
+.contenedor-principal{
+    width:380px;margin:auto;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 6px rgba(0,0,0,0.15);}
+.entrada{
+    margin-bottom:15px;}
+.botones{
+    margin-bottom:15px;}
+.resultados{
+    margin:6px 0;}
+#lblErrores{
+    color:red;}
